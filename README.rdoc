@@ -18,8 +18,7 @@ Currently working on the commenting system.
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-Not currently depoloyed yet.
-* ...
+  Not currently depoloyed yet.
 
 
 Please feel free to use a different markup language if you do not plan to run
