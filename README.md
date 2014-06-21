@@ -11,6 +11,7 @@ Ruby version is 1.9.3
 #Configuration
 
 #Database creation
+Database is Postgres.
 
 #Database initialization
 
@@ -19,5 +20,5 @@ Ruby version is 1.9.3
 #Services (job queues, cache servers, search engines, etc.)
 
 #Deployment instructions
-Not currently deployed yet.
+Deployed to Heroku.
 
