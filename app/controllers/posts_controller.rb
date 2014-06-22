@@ -2,11 +2,19 @@ class PostsController < ApplicationController
 before_filter :authenticate, :except => [ :index, :show ]
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
-  # GET /posts
+	# GET /posts
   # GET /posts.json
+  # GET /posts.atom
   def index
     @posts = Post.all
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @posts }
+      format.atom
+    end
   end
+
 
   # GET /posts/1
   # GET /posts/1.json
