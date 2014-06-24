@@ -13,6 +13,10 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test, :development do
+  gem "rspec-rails", "~> 3.0.1"
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
