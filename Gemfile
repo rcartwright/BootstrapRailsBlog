@@ -14,7 +14,7 @@ group :production do
 end
 
 group :test, :development do
-  gem "rspec-rails", "~> 3.0.1"
+  gem "rspec-rails", "~> 3.0.0"
 end
 
 # Use SCSS for stylesheets
