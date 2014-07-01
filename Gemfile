@@ -15,6 +15,8 @@ end
 
 group :test, :development do
   gem "rspec-rails", "~> 3.0.0"
+	gem 'protected_attributes'
+	gem 'rspec-collection_matchers'
 end
 
 # Use SCSS for stylesheets
