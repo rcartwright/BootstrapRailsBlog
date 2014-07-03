@@ -1,7 +1,5 @@
 class Post < ActiveRecord::Base
-  attr_accessible :body, :title
+  validates :title, presence: true, length: { minimum: 5  }
+  validates :body, presence: true, length: { minimum: 10  }
 
-  has_many :comments
-
-  validates_presence_of :body, :title
 end
