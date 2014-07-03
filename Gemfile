@@ -19,6 +19,10 @@ group :test, :development do
 	gem 'rspec-collection_matchers'
 end
 
+group :test do
+	gem 'shoulda-matchers'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
